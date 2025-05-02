@@ -1,1 +1,0 @@
-const API_URL = "https://soen-287-bonus-chatbox.onrender.com";
