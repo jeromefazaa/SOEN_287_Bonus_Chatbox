@@ -2,7 +2,6 @@ const input = document.getElementById('input');
 const output = document.getElementById('output');
 const submit = document.getElementById('submit');
 const apiURL = API_URL;
-console.log(API_URL);
 
 window.addEventListener('keydown', e => {
     if (e.key === 'Enter' && !e.shiftKey && !e.ctrlKey && !e.altKey && !e.metaKey && input.value){
