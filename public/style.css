@@ -1,0 +1,106 @@
+
+/* Global Styles */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif; /* or 'Arial', sans-serif if you prefer */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+  }
+  
+  /* Headings and Additional Text */
+  h1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600; /* bold look */
+  }
+  
+  h2 {
+    margin: 0 0 20px 0;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 400; /* lighter look */
+    color: #666;
+  }
+  
+  .subtext {
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+    color: #888;
+    text-align: center;
+  }
+  
+  /* Chat Container */
+  .chat-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px; /* Make the chatbox wider */
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  /* Chat Header */
+  .chat-header {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 600;
+  }
+  
+  /* Chat Messages Area */
+  .chat-box {
+    padding: 20px;
+    background-color: #fafafa;
+    flex: 1;
+    height: 500px; /* Increase height for a bigger box */
+    overflow-y: auto;
+  }
+  
+  /* Individual Chat Message */
+  .chat-message {
+    background-color: #e8e8e8;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 400;
+  }
+  
+  /* Chat Input Area */
+  .chat-input {
+    display: flex;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    font-size: 1em;
+    outline: none;
+    font-weight: 400;
+  }
+  
+  .chat-input button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    border: none;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .chat-input button:hover {
+    background-color: #45a049;
+  }
+  
